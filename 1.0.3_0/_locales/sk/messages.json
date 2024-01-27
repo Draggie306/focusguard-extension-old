@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Popis aplikácie, zobrazený v obchode s aplikáciami.",
+      "message": "Bezplatný blokátor stránok pre zvýšenie produktivity. Vlastný zoznam blokovaných stránok a ochrana heslom. Sústreďte sa a blokujte rozptýlenie."
+   },
+   "appName": {
+      "description": "Názov aplikácie, zobrazený v obchode s aplikáciami.",
+      "message": "FocusGuard - Blokovanie stránok a režim zamerania"
+   }
+}

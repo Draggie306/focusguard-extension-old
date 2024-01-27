@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Opis aplikacji, wyświetlany w sklepie internetowym.",
+      "message": "Darmowy bloker witryn dla zwiększenia produktywności. Niestandardowa lista blokowania i ochrona hasłem. Skoncentruj się i zablokuj rozpraszacze."
+   },
+   "appName": {
+      "description": "Tytuł aplikacji, wyświetlany w sklepie internetowym.",
+      "message": "FocusGuard - Blokowanie Witryn i Tryb Skupienia"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Eliminate distractions and maximize productivity with a free site blocker. Create a custom blocklist, protect your privacy with password protection, and stay focused with increased concentration. Block pop-up ads, websites, and ads on Facebook and YouTube with Adblock."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Ad Blocker - Adblock for YouTube"
+   }
+}

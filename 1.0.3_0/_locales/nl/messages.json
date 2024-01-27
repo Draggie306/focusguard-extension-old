@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "De beschrijving van de applicatie, weergegeven in de webwinkel.",
+      "message": "Gratis websiteblokkering voor verbeterde productiviteit. Aangepaste blokkeerlijst en wachtwoordbeveiliging. Blijf gefocust en blokkeer afleidingen."
+   },
+   "appName": {
+      "description": "De titel van de applicatie, weergegeven in de webwinkel.",
+      "message": "FocusGuard - Blokkeer Websites en Focusmodus"
+   }
+}

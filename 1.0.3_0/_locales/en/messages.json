@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Free site blocker for enhanced productivity. Custom blocklist and password protection. Stay focused, and block distractions."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "FocusGuard - Block Site & Focus Mode"
+   }
+}

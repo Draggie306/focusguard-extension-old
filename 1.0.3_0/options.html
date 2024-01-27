@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Site Blocker</title>
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
+  </head>
+  <body>
+    <div class="fixed-navbar">
+      <div class="navbar">
+        <div class="navbar-logo-box">
+          <div class="navbar-logo-box_logo"></div>
+          <div class="navbar-logo-box_title">Site Blocker</div>
+        </div>
+      </div>
+      <div class="menu-box">
+        <div class="menu-box_list">
+          <div class="menu-box_list_item" id="time-settings">Time Settings</div>
+          <div class="menu-box_list_item" id="sites-list">Sites List</div>
+          <div class="menu-box_list_item" id="additional-settings">
+            Additional settings
+          </div>
+          <div class="menu-box_list_item" id="difficulty">Difficulty</div>
+          <div class="menu-box_list_item" id="password-protection">
+            Password Protection
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <section>
+        <div class="time-settings"></div>
+        <div class="sec-header">Time Settings</div>
+        <div class="sec-content">
+          <div class="sec-item">
+            <div class="sec-text">
+              <div class="sec-item-title">Focus Time</div>
+              <div class="sec-item-description">
+                Set the desired time to focus. Sites in your focus mode list
+                will be blocked.
+              </div>
+            </div>
+            <div class="sec-control">
+              <input type="number" id="time" name="time" />
+              <span>Minutes</span>
+            </div>
+          </div>
+          <div class="sec-item">
+            <div class="sec-text">
+              <div class="sec-item-title">Break Time</div>
+              <div class="sec-item-description">
+                Set the desired break time and freely visit those websites from
+                your list.
+              </div>
+            </div>
+            <div class="sec-control">
+              <input type="number" id="short" name="short" />
+              <span>Minutes</span>
+            </div>
+          </div>
+          <div class="sec-item">
+            <div class="sec-text">
+              <div class="sec-item-title">Number of Cycles</div>
+              <div class="sec-item-description">
+                How many times do you want to work before a more extended break?
+              </div>
+            </div>
+            <div class="sec-control">
+              <input type="number" id="serie" name="serie" />
+              <span>Count</span>
+            </div>
+          </div>
+          <div class="sec-item">
+            <div class="sec-text">
+              <div class="sec-item-title">Big Break</div>
+              <div class="sec-item-description">
+                For how long do you want to have a more extended break?
+                (minutes)
+              </div>
+            </div>
+            <div class="sec-control">
+              <input type="number" id="longer" name="longer" />
+              <span>Minutes</span>
+            </div>
+          </div>
+        </div>
+        <div class="sec-footer">
+          <div class="sec-footer-text">
+            Changes will take effect next time you turn the timer on.
+          </div>
+          <div class="save-btn-box">
+            <div class="saved-text" id="saved-text-timers">Saved</div>
+            <div class="sec-footer-btn" id="bt-save-time">SAVE</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="sites-list"></div>
+        <div class="sec-header">Sites List</div>
+        <div class="sites-list-container">
+          <div class="sites-list-section first">
+            <div class="sites-list-section-header">
+              <p>Websites you want to</p>
+              <select id="block">
+                <option id="option-block" value="block">block</option>
+                <option id="option-allow" value="allow">allow</option>
+              </select>
+            </div>
+            <textarea id="sites" class="sites-list-section-field"></textarea>
+            <div class="sites-list-section-footer">
+              Separate sites by line, comma, or space
+            </div>
+          </div>
+          <div class="sites-list-section">
+            <div class="sites-list-section-header">
+              <p>With the exception of the pages</p>
+            </div>
+            <textarea
+              id="exceptions"
+              class="sites-list-section-field exceptions"
+            ></textarea>
+            <div class="sites-list-section-footer">
+              Separate sites by line, comma, or space
+            </div>
+          </div>
+        </div>
+        <div class="sec-footer sec-foot-sites">
+          <div class="save-btn-box">
+            <div class="saved-text" id="saved-text-sites">Saved</div>
+            <div class="sec-footer-btn" id="bt-save-sites">SAVE</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="additional-settings"></div>
+        <div class="sec-header">Additional settings</div>
+        <div class="sec-content">
+          <div class="sec-add-item">
+            <div class="sec-add-item-text">
+              Show remaining time under the extension icon
+            </div>
+            <div class="sec-add-item-control">
+              <label class="switch">
+                <input type="checkbox" id="badge" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="sec-add-item">
+            <div class="sec-add-item-text">
+              Show a clean block page insted of funny images
+            </div>
+            <div class="sec-add-item-control">
+              <label class="switch">
+                <input type="checkbox" id="cleanpage" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="sec-add-item">
+            <div class="sec-add-item-text">
+              Show a notification when a time cycle finishes
+            </div>
+            <div class="sec-add-item-control">
+              <label class="switch">
+                <input type="checkbox" id="notification" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="sec-add-item">
+            <div class="sec-add-item-text">
+              Play a sound when a time cycle finishes
+            </div>
+            <div class="sec-add-item-control">
+              <label class="switch">
+                <input type="checkbox" id="audio" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="difficulty"></div>
+        <div class="sec-header">Difficulty</div>
+        <div class="sec-content">
+          <div class="sec-add-item">
+            <div class="sec-add-item-text">
+              Hide the stop and pause button only during a work cycle
+            </div>
+            <div class="sec-add-item-control">
+              <label class="switch">
+                <input type="checkbox" id="hide-pause-stop" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="sec-add-item">
+            <div class="sec-add-item-text">Start every new cycle paused</div>
+            <div class="sec-add-item-control">
+              <label class="switch">
+                <input type="checkbox" id="autostart" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="password-protection"></div>
+        <div class="sec-header pass-sec-head">Password Protection</div>
+        <div class="sec-header-description">
+          Make it even harder to change your settings and remove sites from your
+          block list.
+        </div>
+        <div class="sec-header-warnning">
+          Please note that the password cannot be recovered if lost or
+          forgotten.
+        </div>
+        <div class="pass-sec-content">
+          <div class="set-pass-mod">
+            <div class="set-pass-mod-icon"></div>
+            <div class="set-pass-mod-btn">SET PASSWORD PROTECTION</div>
+          </div>
+
+          <div class="rem-pass-mod">
+            <div class="rem-pass-mod-icon"></div>
+            <div class="rem-pass-mod-btn">REMOVE PASSWORD PROTECTION</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="password-wrapper">
+      <div class="password-container">
+        <div class="pass-header">
+          <div class="pass-header-logo pass-logo"></div>
+          <div class="pass-header-title">Set Password</div>
+          <div class="pass-header-text"></div>
+        </div>
+
+        <div class="pass-main">
+          <div class="set-pass">
+            <div class="new-pass">
+              <p class="input-label">
+                New password<span>min 8 characters</span>
+              </p>
+              <div>
+                <span class="input-icon-lock">
+                  <span></span>
+                </span>
+                <input
+                  class="input-pass"
+                  type="password"
+                  name="new-pass"
+                  id="new-pass"
+                  maxlength="20"
+                />
+                <span class="input-icon-eye">
+                  <span class="hide"></span>
+                </span>
+              </div>
+            </div>
+            <div class="rep-pass">
+              <span class="input-label">Repeat password</span>
+              <div class="pass-border">
+                <span class="input-icon-lock">
+                  <span></span>
+                </span>
+                <input
+                  class="input-pass"
+                  type="password"
+                  name="rep-pass"
+                  id="rep-pass"
+                  maxlength="20"
+                />
+                <span class="input-icon-eye">
+                  <span class="hide"></span>
+                </span>
+              </div>
+            </div>
+            <div class="pass-btn-save">Save</div>
+          </div>
+
+          <div class="entr-pass">
+            <div class="e-pass">
+              <span class="input-label">Password</span>
+              <div class="pass-border">
+                <span class="input-icon-lock">
+                  <span></span>
+                </span>
+                <input
+                  type="password"
+                  name="e-pass"
+                  id="e-pass"
+                  maxlength="20"
+                />
+                <span class="input-icon-eye">
+                  <span class="hide"></span>
+                </span>
+              </div>
+            </div>
+            <div class="ent-btn-pass-box">
+              <div class="block"></div>
+              <div class="pass-btn-entr"></div>
+            </div>
+          </div>
+        </div>
+        <div class="pass-footer"></div>
+      </div>
+    </div>
+
+    <script src="lib/jquery-3.3.1.js"></script>
+    <script src="js/options-page.js"></script>
+  </body>
+</html>

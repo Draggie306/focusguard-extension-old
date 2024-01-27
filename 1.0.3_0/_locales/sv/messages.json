@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Beskrivningen av applikationen, visas i webbutiken.",
+      "message": "Gratis webbplatsblockerare för ökad produktivitet. Anpassad blocklista och lösenordsskydd. Håll fokus och blockera distraktioner."
+   },
+   "appName": {
+      "description": "Titeln på applikationen, visas i webbutiken.",
+      "message": "FocusGuard - Blockera Webbplatser & Fokusläge"
+   }
+}

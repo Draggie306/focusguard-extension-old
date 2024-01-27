@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "La description de l'application, affichée dans la boutique en ligne.",
+      "message": "Bloqueur de sites gratuit pour une productivité accrue. Liste de blocage personnalisée et protection par mot de passe. Restez concentré et bloquez les distractions."
+   },
+   "appName": {
+      "description": "Le titre de l'application, affiché dans la boutique en ligne.",
+      "message": "FocusGuard - Bloquer des sites et mode de concentration"
+   }
+}

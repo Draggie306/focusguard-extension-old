@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Opis aplikacije, prikazan v spletni trgovini.",
+      "message": "Brezplačno blokiranje spletnih strani za izboljšano produktivnost. Prilagodljiv seznam blokiranih strani in zaščita z geslom. Ostanite osredotočeni in blokirajte motnje."
+   },
+   "appName": {
+      "description": "Naslov aplikacije, prikazan v spletni trgovini.",
+      "message": "FocusGuard - Blokiranje spletnih strani in način osredotočanja"
+   }
+}

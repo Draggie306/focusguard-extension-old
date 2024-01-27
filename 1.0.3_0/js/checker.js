@@ -1,0 +1,1 @@
+var Checker=function(){var e=chrome.runtime.connect({name:"checking-channel"}),n=function(){var n,c={};c.url=window.location.href,n=c,e.postMessage(n)};return document.addEventListener("visibilitychange",(function(){!1===document.hidden&&n()})),{getTabURL:n}}();Checker.getTabURL();

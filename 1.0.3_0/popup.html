@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Site Blocker</title>
+    <link rel="stylesheet" type="text/css" href="css/popup.css" />
+  </head>
+  <body>
+    <div class="floating-button"></div>
+    <div class="main-container">
+      <div class="main-header">
+        <div class="main-header-logo"></div>
+        <div class="main-header-title"></div>
+        <div class="main-header-text"></div>
+      </div>
+
+      <div class="buttons">
+        <div class="bt" id="bt-start">Start Session</div>
+        <div class="bt" id="bt-stop">Stop Session</div>
+        <div class="bt" id="bt-pause">Pause</div>
+        <div class="bt" id="bt-options">Go to options</div>
+        <div class="bt" id="bt-resume">Resume</div>
+      </div>
+
+      <div class="timer-box">
+        <div id="headline">WORK TIME LEFT</div>
+        <div id="countdown">
+          <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-footer"></div>
+    </div>
+
+    <div class="password-container">
+      <div class="pass-header">
+        <div class="pass-header-logo pass-logo"></div>
+        <div class="pass-header-title">Enter Password</div>
+        <div class="pass-header-text">Please enter your password below</div>
+      </div>
+
+      <div class="pass-main">
+        <div class="entr-pass">
+          <div class="e-pass">
+            <p class="input-label">Password<span>min 8 characters</span></p>
+            <div class="pass-border">
+              <span class="input-icon-lock">
+                <span></span>
+              </span>
+              <input type="password" name="e-pass" id="e-pass" maxlength="20" />
+              <span class="input-icon-eye">
+                <span class="hide"></span>
+              </span>
+            </div>
+          </div>
+          <div class="ent-btn-pass-box">
+            <div class="block"></div>
+            <div class="pass-btn-entr">Enter</div>
+          </div>
+        </div>
+      </div>
+      <div class="pass-footer"></div>
+    </div>
+
+    <script src="lib/jquery-3.3.1.js"></script>
+    <script src="js/popup-page.js"></script>
+  </body>
+</html>

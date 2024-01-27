@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Enhance your productivity and block distractions with our free site blocker. Create a custom blocklist for added password protection and stay focused on the task at hand. Adblock for Facebook, Youtube, and other ads to keep your privacy protected."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "FocusGuard - Adblock"
+   }
+}

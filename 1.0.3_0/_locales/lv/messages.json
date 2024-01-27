@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Lietotnes apraksts, kas tiek parādīts interneta veikalā.",
+      "message": "Bezmaksas vietņu bloķētājs uzlabotai produktivitātei. Pielāgota bloķēšanas saraksts un paroles aizsardzība. Koncentrējieties un bloķējiet traucēkļus."
+   },
+   "appName": {
+      "description": "Lietotnes nosaukums, kas tiek parādīts interneta veikalā.",
+      "message": "FocusGuard - Bloķēt Vietnes & Fokusa Režīms"
+   }
+}

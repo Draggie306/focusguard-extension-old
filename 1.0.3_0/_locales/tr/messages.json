@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Uygulamanın açıklaması, web mağazasında görüntülenir.",
+      "message": "Daha iyi verimlilik için ücretsiz site engelleyici. Özel engelleme listesi ve şifre koruması. Odaklanın ve dikkat dağıtıcıları engelleyin."
+   },
+   "appName": {
+      "description": "Uygulamanın başlığı, web mağazasında görüntülenir.",
+      "message": "FocusGuard - Site Engelleme & Odak Modu"
+   }
+}

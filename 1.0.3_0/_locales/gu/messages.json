@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Stay focused and enhance productivity with a free site blocker. Create a custom blocklist, and protect yourself with password protection to ensure your online privacy is guarded from distractions."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Password Protection - Site Block"
+   }
+}

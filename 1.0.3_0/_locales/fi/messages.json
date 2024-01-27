@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Sovelluksen kuvaus, joka näkyy verkkokaupassa.",
+      "message": "Ilmainen sivustojen estäjä parannettua tuottavuutta varten. Mukautettu estoluettelo ja salasanasuojaus. Pysy keskittyneenä ja estä häiriötekijät."
+   },
+   "appName": {
+      "description": "Sovelluksen nimi, joka näkyy verkkokaupassa.",
+      "message": "FocusGuard - Estä Sivustot & Keskitystila"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "La descripció de l'aplicació, que es mostra a la botiga web.",
+      "message": "Bloquejador de llocs gratuït per a una millor productivitat. Llista de bloqueig personalitzada i protecció per contrasenya. Mantingues la concentració i bloqueja les distraccions."
+   },
+   "appName": {
+      "description": "El títol de l'aplicació, que es mostra a la botiga web.",
+      "message": "FocusGuard - Bloqueig de Llocs i Mode de Focalització"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Die Beschreibung der Anwendung, die im Webstore angezeigt wird.",
+      "message": "Kostenloser Website-Blocker für verbesserte Produktivität. Individuelle Sperrliste und Passwortschutz. Bleiben Sie konzentriert und blockieren Sie Ablenkungen."
+   },
+   "appName": {
+      "description": "Der Titel der Anwendung, der im Webstore angezeigt wird.",
+      "message": "FocusGuard - Blockierung von Websites und Fokusmodus"
+   }
+}

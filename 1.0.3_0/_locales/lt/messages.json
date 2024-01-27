@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "Programos aprašymas, rodomas internetinėje parduotuvėje.",
+      "message": "Nemokamas svetainių blokavimas didesniam produktyvumui. Individuali blokavimo sąrašas ir slaptažodžio apsauga. Išlaikykite dėmesį ir blokuokite trukdžius."
+   },
+   "appName": {
+      "description": "Programos pavadinimas, rodomas internetinėje parduotuvėje.",
+      "message": "FocusGuard - Blokuoti Svetaines & Fokusavimo Režimas"
+   }
+}
